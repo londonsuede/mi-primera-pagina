@@ -1,5 +1,4 @@
-$('form').submit(function(event){
-    event.preventDefault()
+$('form').submit(function(event){    
     var userResponses = $(this).serialize()
     console.log(userResponses);
 })
